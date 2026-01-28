@@ -4,13 +4,15 @@
       <body>
 
         <form>
-
+          <fieldset>
+            <legend>Personal informations</legend>
+            
             <label for ="firstname">firstname:</label><br>
-            <input type ="firstname" id ="firstname" name ="firstname"><br>
+            <input type ="firstname" id ="firstname" name ="firstname" value="John" disabled><br>
             <label for ="lastname">lastname:</label><br>
-            <input type ="lastname" id ="lastname" name ="lastname"><br>            
+            <input type ="lastname" id ="lastname" name ="lastname" size="32" required><br>            
             <label for ="password">password:</label><br>
-            <input type ="password" id ="password" name ="password"><br>
+            <input type ="password" id ="password" name ="password" placeholder="password"><br>
             <label for ="email">email:</label><br>
             <input type ="email" id ="email" name ="email"><br><br>
             <input type ="submit" id ="submit" name ="submit"><br>
@@ -25,7 +27,18 @@
             <input type ="checkbox" id ="gaming" name ="gaming" value="gaming">
             <label for="basketball">Basketaball</label><br>   
             <input type ="checkbox" id ="gaming" name ="gaming" value="gaming">
-            <label for="rugby">Rugby</label><br>   
+            <label for="rugby">Rugby</label><br>  
+            <label for="pet">chooses a pet:</label>
+            <select id="pet" name="pet">
+              <option value="Dog">Dog</option>
+              <option value="Cat">Cat</option>
+              <option value="Parrot">Parrot</option>
+            </select><br><br>
+
+            <textarea name="message" rows="10" cols="20" maxlength="50"></textarea>
+
+          </fieldset>
+
         </form>
 
 
