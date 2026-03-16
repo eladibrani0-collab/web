@@ -5,3 +5,33 @@
     background-color: rgb(161, 206, 170);
     transform: translate(20px,39px);
 }
+
+#scale{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 150px;
+    padding: 10px;
+    background-color: rgb(111, 139, 190);
+    transform: scale(1.5);
+}
+
+#rotate{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 150px;
+    padding: 10px;
+    background-color: rgb(190, 143, 176);
+    transform: rotate(270deg);
+}
+
+#skewx{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 100px;
+    padding: 10px;
+    background-color: rgb(246, 252, 211);
+    transform: skewx(45deg);
+}
