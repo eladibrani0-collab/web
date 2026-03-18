@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    background-color: lightblue;
+}
+
+.container div {
+    margin: 10px;
+    padding: 20px;
+    background-color: lightpink;
+    font-size: 35px;
+}
+.container div:nth-child(1){
+    order:3;
+}
+.container div:nth-child(2){
+    order:4;
+}
+.container div:nth-child(3){
+    order:1;
+}
+.container div:nth-child(4){
+    order:2;
+}
+
+.container{
+    display: flex;
+    background-color: lightblue;
+}
+
+
+.container2{
+    display: flex;
+    background-color: lightblue;
+    flex-direction: column;
+}
+
+
+.container2 div {
+    margin: 10px;
+    padding: 20px;
+    background-color: lightpink;
+    font-size: 35px;
+}
+
+.container2 div:nth-child(1){
+    flex-grow: 4;
+}
