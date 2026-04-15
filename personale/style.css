@@ -16,6 +16,20 @@ body {
   background: #6a2c91;
 }
 
+@media (min-width:600px){
+    body{
+        background-color: lightpink;
+        color: lightblue;
+    }
+}
+
+@media (max-width:800px){
+    body{
+        background-color: rgb(231, 72, 146);
+        color: rgb(39, 147, 184);
+    }
+}
+
 .logo {
   height: 40px;
 }
