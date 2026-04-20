@@ -1,0 +1,13 @@
+body {
+  background-image: url("cofee.webp");
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat;  
+  height: 100vh;
+  margin: 0;
+}
+
+.le{
+    margin: 200;
+    padding: 0;
+}
