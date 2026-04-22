@@ -5,9 +5,34 @@ body {
   background-repeat: no-repeat;  
   height: 100vh;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .le{
-    margin: 200;
-    padding: 0;
+  margin: 200;
+  padding: 0;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+
+}
+
+.nav-links{
+  float: right;
+  list-style: none;
+  gap: 15px;
+}
+.nav-links li{
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+
+  transition: 0.3s;
+}
+.nav-links li:hover {
+  background: #685075;
 }
