@@ -172,3 +172,33 @@ a {
     transform: translateY(-50px);
   }
 }
+
+.gallery{
+    margin: 5px;
+    border: 1px solid rgb(182, 125, 79);
+    float: left;
+    width: 180px;
+}
+
+.gallery:hover{
+
+    border:2px solid rgb(206, 140, 87)
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.desc{
+    text-align: center;
+    padding: 15px;
+}
+
+.el{
+  text-align: center;
+}
+
+.gallery{
+  align-items: center;
+}
