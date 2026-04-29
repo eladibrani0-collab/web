@@ -174,10 +174,11 @@ a {
 }
 
 .gallery{
-    margin: 5px;
+    margin-left: 265px;
     border: 1px solid rgb(182, 125, 79);
     float: left;
     width: 180px;
+    align-items: center;
 }
 
 .gallery:hover{
@@ -199,6 +200,4 @@ a {
   text-align: center;
 }
 
-.gallery{
-  align-items: center;
-}
+
