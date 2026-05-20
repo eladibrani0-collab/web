@@ -29,3 +29,9 @@ button.onclick=function(){
     txt1.style.fontSize="100px";
 
 }    
+var button4=document.getElementById('btn4');
+
+
+button4.onclick=function(){
+    txt1.setAttribute("class","test")
+}
