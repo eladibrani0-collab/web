@@ -10,6 +10,10 @@ function validation(){
 
     var city = document.getElementById("city").value;
 
+    var gmail = document.getElementById("gmail").value;
+
+    var valid_gmail_regex = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
+
     if(!(name.match(valid_name_regex)) || !(age.match(valid_age_regex)) || (city == "")){
 
         if(!(name.match(valid_name_regex))){
@@ -36,6 +40,15 @@ function validation(){
             document.getElementById("citiy").style.borderColor = "black";
         }
 
+        if(!(gmail.match(valid_gmail_regex))){
+            document.getElementById("gmail_error").style.visibility = "visible";
+            document.getElementById("gmail").style.borderColor = "red";
+        }else{
+            document.getElementById("gmail_error").style.visibility = "hidden";
+            document.getElementById("gmail").style.borderColor = "black";
+        }
+
+
         return false;
     
         
@@ -46,6 +59,8 @@ function validation(){
     document.getElementById("age").style.borderColor = "black";
     document.getElementById("city_error").style.visibility = "hidden";
     document.getElementById("citiy").style.borderColor = "black";
+    document.getElementById("gmail_error").style.visibility = "hidden";
+    document.getElementById("gmail").style.borderColor = "black";
 
     }
 
