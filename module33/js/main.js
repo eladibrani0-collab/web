@@ -48,6 +48,7 @@ function validation(){
             document.getElementById("gmail").style.borderColor = "black";
         }
 
+        
 
         return false;
     
